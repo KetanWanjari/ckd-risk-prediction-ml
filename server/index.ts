@@ -4,7 +4,7 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
-import { connectMongo } from "./mongo";
+
 
 dotenv.config({
   path: path.resolve(process.cwd(), ".env"),
@@ -67,9 +67,7 @@ app.use((req, res, next) => {
 });
 
 (async () => {
-  console.log("DEBUG MONGO_URI =", process.env.MONGO_URI);
-
-  await connectMongo();
+  
 
   await registerRoutes(httpServer, app);
 
