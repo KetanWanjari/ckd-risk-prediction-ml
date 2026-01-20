@@ -1,5 +1,5 @@
 **🩺 Early Prediction and Progression Analysis of Chronic Kidney Disease Using Machine Learning
-📌 Project Overview**
+📌 **Project Overview**
 Chronic Kidney Disease (CKD) is a long-term medical condition that often progresses silently until it reaches an advanced stage. Early detection plays a critical role in preventing severe complications and improving patient outcomes.
 This project presents a machine learning–based web application that predicts the risk of Chronic Kidney Disease using key clinical parameters. The system assists in early screening and risk assessment, enabling timely medical intervention.
 
