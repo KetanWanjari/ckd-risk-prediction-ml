@@ -92,7 +92,10 @@ app.use((req, res, next) => {
   }
 
   const port = 5000;
-  httpServer.listen(port, "127.0.0.1", () => {
-    log(`serving on http://127.0.0.1:${port}`);
+  httpServer.listen(
+    port, 
+    "0.0.0.0", 
+    () => {
+    log(`serving on port ${port}`);
   });
 })();
